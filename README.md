@@ -59,21 +59,29 @@ ADD correo VARCHAR(100),
     edad INT NULL DEFAULT 18;
 ```
 
-Eliminar Columnas de una tabla. **[-]🔴**
-```sql
-ALTER TABLE ejemplo
-DROP COLUMN correo;
-```
-Renombrar una tabla. **[+]🟢**
+Renombrar una tabla.
 ```sql
 ALTER TABLE usuarios
 RENAME TO clientes;
 ```
 
-Renombrar una tabla VARIANTE Nº2 **[+]🟢**
+Renombrar una tabla VARIANTE Nº2
 ```sql
 ALTER TABLE usuarios
 RENAME AS clientes;
+```
+
+Renombrar una tabla VARIANTE Nº3
+```sql
+ALTER TABLE usuarios,
+RENAME TO clientes;
+```
+
+
+Eliminar Columnas de una tabla. **[-]🔴**
+```sql
+ALTER TABLE ejemplo
+DROP COLUMN correo;
 ```
 
 ## SELECCIONES 
