@@ -58,16 +58,61 @@ ADD correo VARCHAR(100),
 Eliminar Columnas de una tabla. **[-]🔴**
 ```sql
 ALTER TABLE ejemplo
-DROP COLUMN correo; -- Esto es lo que eliminina las columnas 
+DROP COLUMN correo;
 ```
 
 ## SELECCIONES 
 
 Como selecionar datos en nuestras tablas/columnas. Si no sabes agregar datos debes leer
 
-Seleccionar TODOS los datos de una columna  **[+]🟢**
+
+Seleccionar TODOS los datos de una columna.
 ```sql
 SELECT * FROM usuarios
+```
+
+Selecionar con un condicional. **(Seleciona todos los usuarios mayores de 18 años.)**
+
+```sql
+SELECT * FROM usuarios WHERE edad > 18; 
+```
+
+Seleciona datos específicos de una columna.
+```sql
+SELECT nombre FROM usuarios;
+```
+
+Seleccionar datos de múltiples columnas.
+
+```sql
+SELECT nombre, edad FROM usuarios;
+```
+
+Selecionar con un orden específicos.
+
+```sql
+SELECT * FROM usuarios ORDER BY edad DESC;
+```
+
+Seleccionar datos con una limitación en la cantidad de resultados.
+
+```sql
+SELECT * FROM usuarios LIMIT 10;
+```
+
+Seleccionar datos con una condición compuesta:
+```sql
+SELECT * FROM usuarios WHERE edad > 18 AND ciudad = 'Madrid';
+```
+
+Seleccionar datos con una condición utilizando el operador LIKE.
+```sql
+SELECT * FROM usuarios WHERE nombre LIKE 'A%';
+```
+
+Seleccionar datos con una condición utilizando el operador IN.
+```sql
+SELECT * FROM usuarios WHERE ciudad IN ('Madrid', 'Barcelona', 'Valencia');
 ```
 
 ## AÑADIR-DATOS
