@@ -64,6 +64,17 @@ Eliminar Columnas de una tabla. **[-]🔴**
 ALTER TABLE ejemplo
 DROP COLUMN correo;
 ```
+Renombrar una tabla. **[+]🟢**
+```sql
+ALTER TABLE usuarios
+RENAME TO clientes;
+```
+
+Renombrar una tabla VARIANTE Nº2 **[+]🟢**
+```sql
+ALTER TABLE usuarios
+RENAME AS clientes;
+```
 
 ## SELECCIONES 
 [Vuelve arriba 👆](#INDEX)
