@@ -1,7 +1,8 @@
 
 # 💉SQL Full Guide 
 
-Guía de como usar **SQL**
+ Guía de como usar **SQL**
+## INDEX
 - [XAMPP INSTALL](#XAMPP)
 - [BASICOS DE CODIGO](#BÁSICOS-DE-CÓDIGO)
 - [SELECIONES](#SELECIONES)
@@ -28,7 +29,7 @@ cd /opt/lampp
 sudo ./manager-linux-x64.run
 ```
 
-## BÁSICOS-DE-CÓDIGO
+## BÁSICOS-DE-CÓDIGO - [Vuelve Arriba 🆙](#INDEX)
 Crear una base de datos.  **[+]🟢**
 ```sql
 CREATE DATABASE DB1;
@@ -61,7 +62,7 @@ ALTER TABLE ejemplo
 DROP COLUMN correo;
 ```
 
-## SELECCIONES 
+## SELECCIONES  - [Vuelve Arriba 🆙](#INDEX)
 
 Como selecionar datos en nuestras tablas/columnas. Si no sabes agregar datos debes leer
 
@@ -115,7 +116,7 @@ Seleccionar datos con una condición utilizando el operador **IN.**
 SELECT * FROM usuarios WHERE ciudad IN ('Madrid', 'Barcelona', 'Valencia');
 ```
 
-## AÑADIR-DATOS
+## AÑADIR-DATOS - [Vuelve Arriba 🆙](#INDEX)
 
 Para poder añadir datos a una tabla en SQL tienes que usar **INSERT INTO**
 
@@ -127,7 +128,7 @@ VALUES ('María', 25, 'maria@example.com'),
        ('Ana', 28, 'ana@example.com');
 ```
 
-## ELIMINAR-DATOS
+## ELIMINAR-DATOS - [Vuelve Arriba 🆙](#INDEX)
 
 Para eliminar datos debes usar **DELETE** **[-]🔴**
 
