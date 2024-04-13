@@ -11,6 +11,7 @@
 
 
 ## XAMPP
+
 Despúes de descargar en [Instalar Runner](https://www.apachefriends.org/es/download.html)
 ```bash
 cd Descargas
@@ -29,7 +30,9 @@ cd /opt/lampp
 sudo ./manager-linux-x64.run
 ```
 
-## BÁSICOS-DE-CÓDIGO - [Vuelve Arriba 🆙](#INDEX)
+## BÁSICOS-DE-CÓDIGO 
+[Vuelve arriba 👆](#INDEX)
+
 Crear una base de datos.  **[+]🟢**
 ```sql
 CREATE DATABASE DB1;
@@ -62,9 +65,10 @@ ALTER TABLE ejemplo
 DROP COLUMN correo;
 ```
 
-## SELECCIONES  - [Vuelve Arriba 🆙](#INDEX)
+## SELECCIONES 
+[Vuelve arriba 👆](#INDEX)
 
-Como selecionar datos en nuestras tablas/columnas. Si no sabes agregar datos debes leer
+Como selecionar datos en nuestras tablas/columnas. Si no sabes agregar datos debes leer [AÑADIR DATOS](#AÑADIR-DATOS)
 
 
 Seleccionar TODOS los datos de una columna.  **(  *  )**
@@ -116,7 +120,7 @@ Seleccionar datos con una condición utilizando el operador **IN.**
 SELECT * FROM usuarios WHERE ciudad IN ('Madrid', 'Barcelona', 'Valencia');
 ```
 
-## AÑADIR-DATOS - [Vuelve Arriba 🆙](#INDEX)
+## AÑADIR-DATOS
 
 Para poder añadir datos a una tabla en SQL tienes que usar **INSERT INTO**
 
@@ -128,7 +132,9 @@ VALUES ('María', 25, 'maria@example.com'),
        ('Ana', 28, 'ana@example.com');
 ```
 
-## ELIMINAR-DATOS - [Vuelve Arriba 🆙](#INDEX)
+## ELIMINAR-DATOS
+
+[Vuelve arriba 👆](#INDEX)
 
 Para eliminar datos debes usar **DELETE** **[-]🔴**
 
