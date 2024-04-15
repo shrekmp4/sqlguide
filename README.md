@@ -141,7 +141,7 @@ SELECT * FROM usuarios WHERE ciudad IN ('Madrid', 'Barcelona', 'Valencia');
 
 ## AÑADIR-DATOS
 
-Para poder añadir datos a una tabla en SQL tienes que usar **INSERT INTO**
+Para poder añadir datos a una tabla en SQL tienes que utlizar **INSERT INTO**
 
 Añadir datos a tabla en sus columnas. **[+]🟢**
 ```sql
